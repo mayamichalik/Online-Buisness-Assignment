@@ -1,0 +1,331 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Crown Cupcakes - Home</title>
+        <link rel="icon" type="image/x-icon"/ href="images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script type="text/javascript" src="js/busisnessjs.js"></script>
+        
+        <!---Bootstraps for  navbar--->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+        <!--- Bootstraps for grid of 2--->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+        <!--- Bootstraps for grid of 3 --->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+        <!--- bootstraps popup --->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body onscroll="scroll();">
+        <div class="container center">
+            <div class="top center">
+                <img src='images/banner.jpg' />  
+            </div>
+            
+             <!---Bootstraps for  navbar--->
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#top">Home</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#about">Home</a></li>
+                        <li><a href="#prod">Store</a></li>
+                        <li><a href="#cont">Trivia</a></li>
+                        <li><a href="#ref">Games</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="about" id="about">
+                <h1 class="left">About Us</h1>
+                
+                <!--- Bootstraps for grid--->
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <p class="left">Crown Cupcakes is a friend owned bakery located in London, UK. Everything is made with passion and kindness. We strive to use the best ingredients in order to create only the best for our customers. We are Open daily and our cupcakes are baked fresh right on location every morning! Every month a new specialty cupcake is released named after a member of the Royal family.</p>
+                        </div>
+                        <div class="col-sm-8">
+                            <img src='images/bakery.jpg' id="bake" class="bake" />
+                            <div class="space"></div>
+                        </div>
+                    </div>
+                <div class="row">
+                    <h3 class="left">The Team</h3>
+                    <div class="col-sm-4">
+                        <img  class="teamsize border border_colour" src='images/baker.jpg'  />
+                        <h4><b>Rick Alster</b></h4>
+                        <p class="left">Rick is our head baker at Crown Cupcakes. Born and raised in the country side of England, Rick spend a lot of his childhood baking with his grandma. His favourite cupcake here is strawberries and cream. </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img  class="teamsize border border_colour" src='images//businessman.jpg'  />
+                        <h4><b>Kyle Marter</b></h4>
+                        <p class="left">Kyle is our main man on the business side at Crown Cupcakes. Resided in London England, Rick went to university and graduated with a Business degree. His favourite cupcake here is coffee and cocoa.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img  class="teamsize border border_colour" src='images/baker2.jpg'  />
+                        <h4><b>Suzy Cho</b></h4>
+                        <p class="left">Suzy is our head decorator at Crown Cupcakes. Suzy attended a culinary school in Itay to learn from the best. Her favourite cupcake here is salted crunchy caramel.</p>
+                    </div> 
+                </div>
+                
+            </div>
+             <div class="products" id="prod">
+                 <h1 class="left">Products</h1>
+                 <div class="carousel-box" id="a">
+                     <img src="images/cupcakes1.jpg" id="carousel-img"/>
+                 </div>
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <h4><b>CHOCOLATE PEANUT BUTTER</b></h4>
+                          <p>123456CPB</p>
+                          <img  class="size" src='images/cupcakes1.jpg'  /> 
+                          <p class="left"> Rich chocolate cake base  topped with creamy peanut butter icing.</p>
+                          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add To Cart</button>
+                          <!-- Modal -->
+                          <div class="modal fade" id="myModal" role="dialog">
+                              <div class="modal-dialog">
+    
+                                  <!-- Modal content-->
+                                  <div class="modal-content">
+                                      <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                          <h4 class="modal-title">Your Cart</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                          <p>The item was added to your cart!</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                  </div>
+      
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <div class="col-sm-4">
+                          <h4><b>CLASSIC VANILLA SPRINKLE</b></h4>
+                          <p>234567CVS</p>
+                          <img  class="size" src='images/cupcakes2.jpg'  />
+                          <p class="left">Vanilla cake base with rainbow sprinkles baked in, topped with vanilla icing and MORE spinkles.</p>
+                          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add To Cart</button>
+                          <!-- Modal -->
+                          <div class="modal fade" id="myModal" role="dialog">
+                              <div class="modal-dialog">
+    
+                                  <!-- Modal content-->
+                                  <div class="modal-content">
+                                      <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                          <h4 class="modal-title">Your Cart</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                          <p>The item was added to your cart!</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                  </div>
+      
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <div class="col-sm-4">
+                          <h4><b>SALTED CRUNCHY CARAMEL</b></h4>
+                          <p>345678SCC</p>
+                          <img  class="size" src='images/cupcakes3.jpg'  />
+                          <p class="left">Cake base is infused with caramel flavouring while the icing is a salted caramel topped with crunchy caramel bits.</p>
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add To Cart</button>
+                          <!-- Modal -->
+                          <div class="modal fade" id="myModal" role="dialog">
+                              <div class="modal-dialog">
+    
+                                  <!-- Modal content-->
+                                  <div class="modal-content">
+                                      <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                          <h4 class="modal-title">Your Cart</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                          <p>The item was added to your cart!</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                  </div>
+      
+                              </div>
+                          </div>
+                      </div>
+                 </div>
+                 
+                  <div class="row">
+                      <div class="col-sm-4" >
+                          <h4><b>GLUTEN FREE BLUBERRY</b></h4>
+                          <p>456789GFB</p>
+                          <img  class="size" src='images/cupcakes4.jpg'  />
+                          <p class="left">GLuten free vanilla cake topped with a blueberry infused icing.</p>
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add To Cart</button>
+                          <!-- Modal -->
+                          <div class="modal fade" id="myModal" role="dialog">
+                              <div class="modal-dialog">
+    
+                                  <!-- Modal content-->
+                                  <div class="modal-content">
+                                      <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                          <h4 class="modal-title">Your Cart</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                          <p>The item was added to your cart!</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                  </div>
+      
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <div class="col-sm-4">
+                         <h4><b>STRAWBERRIES AND CREAM</b></h4>
+                          <p>567891SAC</p>
+                          <img  class="size" src='images/cupcakepink.jpg'  />
+                          <p class="left">Vanilla cake with baked in strawberries topped off with a strawberry whipped icing.</p>
+                          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add To Cart</button>
+                          <!-- Modal -->
+                          <div class="modal fade" id="myModal" role="dialog">
+                              <div class="modal-dialog">
+    
+                                  <!-- Modal content-->
+                                  <div class="modal-content">
+                                      <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                          <h4 class="modal-title">Your Cart</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                          <p>The item was added to your cart!</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                  </div>
+      
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <div class="col-sm-4">
+                          <h4><b>COFFEE AND CACOA</b></h4>
+                          <p>678912CAC</p>
+                          <img  class="size" src='images/cupcakecoffee.jpg'  />
+                          <p class="left">Chocolate cake base topped with a coffee infused icing and coffee beans. </p>
+                          <!---button--->
+                           <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add To Cart</button>
+                          <!-- Modal -->
+                          <div class="modal fade" id="myModal" role="dialog">
+                              <div class="modal-dialog">
+    
+                                  <!-- Modal content-->
+                                  <div class="modal-content">
+                                      <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                          <h4 class="modal-title">Your Cart</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                          <p>The item was added to your cart!</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                  </div>
+      
+                              </div>
+                          </div>       
+                          
+                      </div>
+                 </div>
+                 
+                 
+            </div>
+            <script type="text/javascript">
+                play();
+            </script>
+
+             <div class="contact" id="cont">
+                 <h2 class="left">Contact</h2>
+                 <form>
+                     <h3 class="left">Name:</h3>
+                     <input type="text" name="name" id="name" onblur="checkName();" /> 
+                     <h3 class="left">E-Mail:</h3>
+                     <input type="text" name="email" id="email" onblur="checkEmail();" /> 
+                     
+                     
+                     <h3 class="left">Reason for message:</h3>
+                     <select id="reason" onchange="checkReason();">
+                         <option>Please choose...</option>
+                         <option>General inquiry</option>
+                         <option>Pricing and bulk rates</option>
+                         <option value="P">Product info</option>
+                         <option>Shipping</option>
+                         <option>Other</option>
+                     </select>
+                     <div id="product" style="display: none">
+                         <h3 class="left">Product ID:</h3>
+                         <input type="text" name="prodID" id="txtProductID" onblur="checkID();" />
+                     </div>
+                     
+                     
+                     
+                     <h3 class="left">Message: </h3>
+                     <input type="text" name="message" id="message" onblur="checkMessage();" />
+                     <button type="button" class="btn btn-default" >Send</button>
+                     
+                 </form>
+                 
+            </div>
+            
+             <div class="references" id="ref">
+                 <div class="outer" id="back">
+                     <div class="inner left" id="words">References</div>
+                 </div>
+                 <ul class="left">
+                     <li><a href="https://unsplash.com/photos/oq4ok8GE88c" target="_blank">Banner image</a></li>
+                    <li><a href="https://unsplash.com/photos/j6DH45Bflho" target="_blank">image of bakery</a></li>
+                    <li><a href="https://unsplash.com/photos/zk-fclJdGas" target="_blank">first image in carousel</a></li>
+                    <li><a href="https://unsplash.com/photos/sl7jqLgd7lo" target="_blank">second image in carousel</a></li>
+                     <li><a href="https://unsplash.com/photos/qJ0zGkrE1Zg" target="_blank">third image in carousel</a></li>
+                     <li><a href="https://www.pexels.com/photo/brown-cupcake-with-pink-icing-macro-photographyu-853006/" target="_blank">Strawberry cupcake</a></li>
+                      <li><a href="https://www.pexels.com/photo/cupcakes-with-chocolate-shavings-on-top-1591481/" target="_blank">coffee cupcake</a></li>
+                     <li><a href="https://unsplash.com/photos/WMD64tMfc4k/" target="_blank">Busisness man</a></li>
+                     <li><a href="https://unsplash.com/photos/KO92aPT8AhI" target="_blank">Baker</a></li>
+                     <li><a href="https://unsplash.com/photos/tUsnpRj0NYE" target="_blank">Decorator</a></li>
+                     <li><a href="https://unsplash.com/photos/pGM4sjt_BdQ" target="_blank">Background cupcakes</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </body>
+
+</html>
